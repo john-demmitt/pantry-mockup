@@ -1,0 +1,99 @@
+.big {
+  max-width: 95%;
+  max-height: 95%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.big {
+  fill:#08c1ab;
+  fill-opacity: 0;
+  stroke: #000;
+  stroke-dasharray: 350;
+  stroke-dashoffset: 350;
+    stroke-width: 3;
+  -webkit-animation: draw 5s forwards linear 1 2s;
+          animation: draw 5s forwards linear 1 2s;
+}
+
+.butt {
+
+    fill:#000000;
+  fill-opacity: 0;
+  stroke: #000;
+  stroke-width: 3;
+  stroke-dasharray: 550;
+  stroke-dashoffset: 550;
+
+  -webkit-animation: drawbutt 2s forwards linear 1 8s;
+
+          animation: drawbutt 2s forwards linear 1 8s;
+}
+
+@-webkit-keyframes draw {
+   0% {
+    stroke-dashoffset: 350;
+    fill-opacity: 0;
+  }
+
+  94% {
+    fill-opacity:0;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    fill-opacity:1;
+  }
+}
+
+@keyframes draw {
+   0% {
+    stroke-dashoffset: 350;
+    fill-opacity:0;
+  }
+
+  94% {
+    fill-opacity:0;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    fill-opacity:1;
+  }
+} 
+
+@-webkit-keyframes drawbutt {
+   0% {
+    stroke-dashoffset: 550;
+    fill-opacity:0;
+  }
+
+  94% {
+    fill-opacity:0;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    fill-opacity:1;
+  }
+} 
+
+@keyframes drawbutt {
+   0% {
+    stroke-dashoffset: 550;
+    fill-opacity:0;
+  }
+
+  94% {
+    fill-opacity:0;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    fill-opacity:1;
+  }
+}

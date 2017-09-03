@@ -1,0 +1,16 @@
+body {
+   
+
+}
+
+.page {
+    background: url(../sprite/bg1.jpg) no-repeat center fixed;
+    height:100vw;
+   
+}
+
+.helpus {
+    margin-top: 20px;
+margin-left:20px;
+width:100%;
+}

@@ -1,0 +1,34 @@
+.barbara-al-diana,
+.farmers-july-2017-01,
+.presentation-02,
+.flu-shot {
+    display: inline-block;
+    background: url('bg-sprite.png') no-repeat center;
+    overflow: hidden;
+    text-indent: -9999px;
+    text-align: left;
+}
+
+.barbara-al-diana {
+    background-position: -1px -0px;
+    width: 1120px;
+    height: 799px;
+}
+
+.farmers-july-2017-01 {
+    background-position: -1px -800px;
+    width: 1120px;
+    height: 800px;
+}
+
+.presentation-02 {
+    background-position: -1px -1601px;
+    width: 1120px;
+    height: 800px;
+}
+
+.flu-shot {
+    background-position: -1px -2402px;
+    width: 1119px;
+    height: 800px;
+}

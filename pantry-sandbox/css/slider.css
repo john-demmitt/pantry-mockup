@@ -1,0 +1,13 @@
+html, body {
+    height: 100vh;
+    width: 100vw;
+    margin:0;
+    padding: 0;
+}
+
+.pantry-pics {
+    max-height: 75vh;
+   max-width: 75vw;
+margin-left: auto;
+margin-right:auto;
+}
