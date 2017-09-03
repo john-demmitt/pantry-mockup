@@ -1,4 +1,4 @@
-html, body {
+/*html, body {
     height: 100vh;
     width: 100vw;
     margin:0;
@@ -6,8 +6,12 @@ html, body {
 }
 
 .pantry-pics {
-    max-height: 75vh;
-   max-width: 75vw;
-margin-left: auto;
-margin-right:auto;
+   
 }
+
+.box{
+    height: 80vh;
+    width: 80vw;
+ margin-left: auto;
+ margin-right:auto;
+}*/
